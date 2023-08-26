@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002339;
+}
+.container{
+    width: 50%;
+    height: 25vh;    
+    margin: 15% auto;
+}
+.container h1{
+    color: white;
+}
+.container h1 span{
+    border-bottom: 2px solid green;
+    color: green;
+}
+.search input{
+    margin-top: 25px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    height: 40px;
+    width: 60%;
+    border: none;
+    outline: none;
+    font-size: medium;
+    padding-left: 8px;
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+    height: 40px;
+    width: 30%;
+    background-color: green;
+    color: white;
+    font-size: medium;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
